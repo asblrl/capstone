@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from flask_mysqldb import MySQL
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Deepthi123!@10.0.1.92/lilly'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Aditya@123!@10.0.1.23/lilly'
 db = SQLAlchemy(app)
 class User(db.Model):
   id = db.Column(db.Integer, primary_key=True)
